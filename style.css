@@ -1,19 +1,50 @@
-body{
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body{
+
+    font-family: "SF Pro Text", sans-serif;
     
 }
 .cabeçalho{
     background-image: url(../Whatsapp_2/imagens/hqdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    height:100px;
+    height:75px;
     display: flex;
     justify-content: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .titulo{
-    background-color: rgba(5, 26, 5, 0.705);
+    background-color: rgba(15, 170, 15, 0.603);
     border: 1px solid black;
-    padding: 10px;
     box-shadow: 5px 10px;
+    padding: 20px;
+    
+}
+.nave{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(27, 27, 27);
+    display: inline;
+    text-align: center;
+    position: fixed;
+    justify-content:space-between;
+
+}
+.nave ul{
+    list-style: none;
+    line-height: 45px;
+    
+}
+.nave ul li{
+    display: inline;
+}
+.nave ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.5em;
 }
