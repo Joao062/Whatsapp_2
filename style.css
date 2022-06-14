@@ -32,11 +32,18 @@ body{
 */
 
 .header-container{
-    background-color: rgba(26, 24, 24, 0.979);
+    background-color: rgb(27, 27, 27);
+    box-shadow: rgba(46, 240, 143, 0.4) 0px 5px, rgba(46, 240, 159, 0.3) 0px 10px, rgba(91, 240, 46, 0.2) 0px 15px, rgba(46, 240, 72, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
     
 }
+.header-container h1{
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(94, 224, 159);
+    text-align: center;
+    padding: 10px;
+}
 .nave{
-    box-shadow: rgba(46, 240, 143, 0.4) 0px 5px, rgba(46, 240, 159, 0.3) 0px 10px, rgba(91, 240, 46, 0.2) 0px 15px, rgba(46, 240, 72, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    
     width: 100%;
     height: 45px;
     background-color: rgb(27, 27, 27);
@@ -73,4 +80,7 @@ body{
     color: rgb(14, 223, 42);
     background-color: rgb(25, 197, 111);
     
+}
+.blog-post{
+    color: white;
 }
