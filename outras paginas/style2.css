@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#area-principal{
+    background-color: red;
+}
+#img-principal{
+    
+    max-width: 300px;
+}

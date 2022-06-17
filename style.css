@@ -47,44 +47,40 @@ body {
 #header-container {
     background-color: rgb(27, 27, 27);
     box-shadow: rgba(46, 240, 143, 0.4) 0px 5px, rgba(46, 240, 159, 0.3) 0px 10px, rgba(91, 240, 46, 0.2) 0px 15px, rgba(46, 240, 72, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    position: fixed;
+    width: 100%;
+    
+    z-index: 1;
 }
 
-#header-container h1 {
+#header-container {
     font-family: 'Press Start 2P', cursive;
     color: rgb(94, 224, 159);
     text-align: center;
     padding: 10px;
 }
 
-.nave {
-    width: 100%;
-    height: 45px;
-    background-color: rgb(27, 27, 27);
-    display: inline;
-    text-align: center;
-    position: fixed
-}
-
-.nave ul {
-    list-style: none;
-    line-height: 45px;
-}
-
-.nave ul li {
-    display: inline;
-}
-
-.nave ul li a {
-    color: aliceblue;
+.nav-container{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.329);
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.3rem;
+    
+    
 }
-
+.nav-container ul li{
+    list-style-type: none;
+    display: inline;
+    
+    
+    
+}
 .post-title {
     text-decoration: none;
     color: whitesmoke;
     list-style: none;
     margin-left: 10px;
+    font-family: 'Chilanka', cursive;
 }
 
 .section-bar {
@@ -161,7 +157,8 @@ body {
     font-size: 1.5rem;
     margin: 1.5rem 0 2rem;
     text-transform: uppercase;
-    color: rgb(94, 224, 159)
+    color: rgb(94, 224, 159);
+    font-family: 'Chilanka', cursive;
 }
 
 .blog-post__text {
@@ -186,19 +183,21 @@ body {
     background-image: linear-gradient(to right, #00ff1570 0%, #09bd18 100%);
 }
 
-.linha-div {
-    color: rgb(96, 122, 96);
+.gif-container .gifs{
+    float: right;
 }
 
-.tanana {
+.gifs {
     background-color: white;
     color: #eee;
     border: solid 1px white;
-    max-width: 600px;
-    max-height: 300px;
-    display: flex;
     margin-left: 300px;
-
+    max-width: 300px;
+    max-height: 300px;
+    display: grid;
+}
+.banner-gif{
+    margin-left: 100px;
 }
 
 .container-sec{
@@ -209,9 +208,7 @@ body {
 .container-sec .blog-tudo{
     float: left;
 }
-.container-do-container{
-    
-}
+
 
 @media screen and (max-width: 918px) {
     .blog-post {
@@ -230,8 +227,8 @@ body {
         max-width: 100%;
         transform: translate(0, -8rem);
     }
-    .blog-post__info {}
-    .linha-div {
+   
+    .gifs{
         display: none;
     }
 }
